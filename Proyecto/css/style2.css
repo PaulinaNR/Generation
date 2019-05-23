@@ -42,12 +42,12 @@
     margin-left: 0px;
 }
 
-.zoom:hover{
+.zoom{
   transition: transform .3s;
 }
 
 .zoom:hover {
-    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 
 
@@ -56,6 +56,8 @@
 }
 
 .segBarra{
-    font-size: 0.875em;
+    font-size: 1.1em;
     line-height: 1;
 }
+
+.dropdown-toggle:after { content: none }
