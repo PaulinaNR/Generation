@@ -9,5 +9,16 @@ $(".dropdown-toggle").on("mouseenter", function () {
 
 $(".dropdown-menu").on("mouseleave", function () {
     console.log("fuera menu");
-    $(".dropdown-toggle").dropdown('toggle');
+    $(".dropdown-toggle").dropdown('hide');
+});
+
+
+$(document).ready(function(){
+    $("#icono").click(function(){
+        $(this).toggleClass("red");
+    });
+    $("#cambio").click(function()
+    {
+        location.assign("principal.html");
+    })
 });

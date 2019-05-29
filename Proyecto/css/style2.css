@@ -60,4 +60,19 @@
     line-height: 1;
 }
 
-.dropdown-toggle:after { content: none }
+/*.dropdown-toggle:after { content: none }*/
+
+.red
+{
+    color:red;
+}
+
+.negro
+{
+    color:black;
+}
+
+.blue
+{
+    color:dodgerblue;
+}
